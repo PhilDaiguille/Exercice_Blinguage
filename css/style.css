@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');/* RESET 2022 */
+html{
+	font-size:62.5%;
+	scroll-behavior:smooth;
+}
+body{
+	font: 1.6rem 'Source Sans Pro', sans-serif;
+	margin:0;
+	background: url(../assets/bg.jpg) no-repeat top right / contain;
+	background-size: 60%;
+}
+section,figure,h1,h2,h3,h4,h5,h6,ol,p,ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+a{
+	color:#000;
+	text-decoration:none;
+}
+*{ 
+	box-sizing:border-box;
+}
+button{
+	padding:0;
+	border:0;
+	background-color:transparent;
+} 
+img{
+	display: inline-block;
+	object-fit: contain;
+}
+/*HEADER */
+header{
+	margin: 0 auto;
+	z-index: 5;
+	padding: 2rem;
+	
+	
+}
+header .barre{
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10rem ;
+}
+header img{
+	max-width: 15rem;
+}
+header nav ul{
+	display: flex;
+}
+header nav ul li{
+	padding: 1rem 5rem ;
+	font-weight: bold;
+}
+.material-symbols-outlined{
+	vertical-align: middle;
+}
+header nav ul li:last-child{
+	padding:1rem;
+	border: solid .2rem #000;
+	border-radius: .75rem;
+}
+header section{
+	padding-left: 10rem;
+}
+header section h1{
+	font-size: 7rem;
+	padding: 5rem;
+	max-width: 20rem;
+}
+header section p{
+	max-width: 40rem;
+	padding: 0 5rem;
+}
+header section a{
+	display: inline-block;
+	margin: 4rem 5rem;
+	font-weight: bold;
+	padding:1.5rem 2.5rem;
+	border-radius: 1.5rem;
+	color: #f7eec7;
+	background-color: #372f7f;
+}
+
+
+/* MAIN */
+main{
+	display: flex;
+	
+	max-width: 100rem;
+	margin: 2rem auto;
+}
+main section img{
+	max-width: 6rem;
+	padding: 2rem 0px;
+}
+main section p{
+	width: fit-content;
+	text-align: justify;
+}
+main section{
+	padding: 2rem;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-self: center;
+}
+
+
+
+
+/* FOOTER */
+
+
+
+/* @Copyright - PhilDaiguille*/
